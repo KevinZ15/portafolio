@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kevin Zamora Soto">
+  <meta name="description" content="Portafolio web de Kevin Zamora Soto, estudiante de Programación IV.">
+  <meta name="keywords" content="HTML5, CSS, JavaScript, Bootstrap, portafolio, desarrollo web">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio de Kevin Zamora Soto</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg menu-arriba sticky-top">
+    <div class="container">
+      <a class="navbar-brand marca" href="#inicio">KZS</a>
+      <button class="navbar-toggler boton-menu" type="button" data-bs-toggle="collapse" data-bs-target="#menuKevin"
+        aria-controls="menuKevin" aria-expanded="false" aria-label="Mostrar menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuKevin">
+        <ul class="navbar-nav ms-auto text-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link enlace-menu" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link enlace-menu" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link enlace-menu" href="#experiencia">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link enlace-menu" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link enlace-menu" href="#articulos">Artículos</a></li>
+          <li class="nav-item"><a class="nav-link enlace-menu" href="#testimonios">Testimonios</a></li>
+          <li class="nav-item"><a class="nav-link enlace-menu" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="inicio" class="inicio">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-12 col-lg-7">
+          <p class="texto-verde mb-2">PORTAFOLIO WEB</p>
+          <h1 class="titulo-grande">Kevin Zamora Soto</h1>
+          <p class="texto-inicio">
+            Desarrollo sitios web con enfoque front end y backend. Me gusta crear páginas limpias, funcionales y responsivas usando HTML5, CSS, JavaScript y Bootstrap.
+          </p>
+          <div class="d-flex flex-wrap gap-2 mb-4">
+            <span class="etiqueta">HTML5</span>
+            <span class="etiqueta">CSS</span>
+            <span class="etiqueta">JavaScript</span>
+            <span class="etiqueta">Bootstrap</span>
+          </div>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#proyectos" class="btn boton-verde">Ver proyectos</a>
+            <a href="#contacto" class="btn boton-negro">Contactarme</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5">
+          <div class="caja-foto mx-auto">
+            <div class="circulo-nombre">
+              <img src="./imagenes/Hero_Principal.jpg" alt="Imagen de persona frente a computadora">
+            </div>
+            <p class="mini-texto">Estudiante de Programación IV</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="sobre-mi" class="parte parte-oscura">
+    <div class="container">
+      <div class="fila-titulo text-center">
+        <p class="texto-verde">SOBRE MÍ</p>
+        <h2 class="titulo-parte">Un perfil en crecimiento</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-9">
+          <div class="caja-simple caja-centro">
+            <p class="texto-normal mb-0">
+              Soy Kevin Zamora Soto, estudiante y actualmente llevo el curso de Programación 4. Estoy fortaleciendo mis conocimientos en desarrollo web y he trabajado en proyectos donde combino diseño visual, estructura semántica y organización del contenido. Mi meta es seguir creciendo como desarrollador y construir sitios modernos que se vean bien tanto en computadora como en celular.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiencia" class="parte parte-clara">
+    <div class="container">
+      <div class="fila-titulo text-center">
+        <p class="texto-verde">EXPERIENCIA</p>
+        <h2 class="titulo-parte oscuro">Lo que hago</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="caja-info h-100">
+            <div class="icono-caja"><i class="bi bi-window"></i></div>
+            <h3 class="titulo-caja">Front end</h3>
+            <p class="texto-caja">Maqueto interfaces web limpias, ordenadas y adaptables a distintos tamaños de pantalla.</p>
+            <div class="grupo-etiquetas">
+              <span class="mini-etiqueta">HTML5</span>
+              <span class="mini-etiqueta">CSS</span>
+              <span class="mini-etiqueta">Bootstrap</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="caja-info h-100">
+            <div class="icono-caja"><i class="bi bi-code-slash"></i></div>
+            <h3 class="titulo-caja">Back end</h3>
+            <p class="texto-caja">También me interesa la lógica del sitio, la estructura del código y la conexión entre partes.</p>
+            <div class="grupo-etiquetas">
+              <span class="mini-etiqueta">JavaScript</span>
+              <span class="mini-etiqueta">Lógica</span>
+              <span class="mini-etiqueta">Práctica</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mx-md-auto">
+          <div class="caja-info h-100">
+            <div class="icono-caja"><i class="bi bi-mortarboard"></i></div>
+            <h3 class="titulo-caja">Estudiante</h3>
+            <p class="texto-caja">Estoy en una etapa de aprendizaje constante, mejorando mi forma de diseñar, estructurar y publicar sitios web.</p>
+            <div class="grupo-etiquetas">
+              <span class="mini-etiqueta">Programación IV</span>
+              <span class="mini-etiqueta">Práctica</span>
+              <span class="mini-etiqueta">Mejora</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="parte parte-oscura">
+    <div class="container">
+      <div class="fila-titulo text-center">
+        <p class="texto-verde">PROYECTOS</p>
+        <h2 class="titulo-parte">Mis últimos trabajos</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="tarjeta-proyecto h-100">
+            <div class="barra-verde"></div>
+            <a href="https://github.com/KevinZ15/PromocionArtista" target="_blank">
+              <h3 class="titulo-proyecto">Promoción de artista</h3>
+            </a>
+            <p class="texto-proyecto">Página web para la promoción de un artista, con imagen principal, biografía, galería y contacto.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="tarjeta-proyecto h-100">
+            <div class="barra-verde"></div>
+            <a href="https://github.com/KevinZ15/ProyectoMetrokilos" target="_blank">
+              <h3 class="titulo-proyecto">Sitio de compañía textil</h3>
+            </a>
+            <p class="texto-proyecto">Rediseño de un sitio web de una empresa que vende telas, mejorando el orden visual y la experiencia del usuario.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="tarjeta-proyecto h-100">
+            <div class="barra-verde"></div>
+            <a href="https://github.com/KevinZ15" target="_blank">
+              <h3 class="titulo-proyecto">Landing page para cafetería</h3>
+            </a>
+            <p class="texto-proyecto">Diseño de una página principal para una cafetería local con menú resumido, horarios y formulario de contacto.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="tarjeta-proyecto h-100">
+            <div class="barra-verde"></div>
+            <a href="https://github.com/KevinZ15" target="_blank">
+              <h3 class="titulo-proyecto">Portafolio para fotógrafo</h3>
+            </a>
+            <p class="texto-proyecto">Sitio personal para mostrar trabajos fotográficos con secciones simples, galería y perfil profesional.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="tarjeta-proyecto h-100">
+            <div class="barra-verde"></div>
+            <a href="https://github.com/KevinZ15" target="_blank">
+              <h3 class="titulo-proyecto">Página informativa de gimnasio</h3>
+            </a>
+            <p class="texto-proyecto">Web enfocada en membresías, clases, horarios y beneficios, con diseño oscuro y bloques destacados.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="tarjeta-proyecto h-100">
+            <div class="barra-verde"></div>
+            <a href="https://github.com/KevinZ15" target="_blank">
+              <h3 class="titulo-proyecto">Sitio web para academia pequeña</h3>
+            </a>
+            <p class="texto-proyecto">Proyecto académico para mostrar cursos, información general, profesores y formulario de inscripción.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="articulos" class="parte parte-clara">
+    <div class="container">
+      <div class="fila-titulo text-center">
+        <p class="texto-verde">ARTÍCULOS</p>
+        <h2 class="titulo-parte oscuro">Temas que me interesa aprender</h2>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+          <div class="card tarjeta-lista shadow-sm">
+
+            <div class="card-header encabezado-lista">
+              Lecturas y temas
+            </div>
+
+            <ul class="list-group list-group-flush">
+
+              <li class="list-group-item item-lista">
+                <a href="https://cursos.frogamesformacion.com/pages/blog/26-024-etiquetas-de-html5?srsltid=AfmBOopLqIiqAxjaEjhE9SS8BTxQRY2uGsC9g_hB2S8e3G-XIkfHxaLG"
+                  target="_blank" rel="noopener noreferrer">
+                  Buenas prácticas en HTML5 y etiquetas semánticas
+                </a>
+              </li>
+
+              <li class="list-group-item item-lista">
+                <a href="https://programarfacil.com/blog/crear-una-web-responsive-con-bootstrap/" target="_blank"
+                  rel="noopener noreferrer">
+                  Diseño responsivo con Bootstrap
+                </a>
+              </li>
+
+              <li class="list-group-item item-lista">
+                <a href="https://www.mgpanel.co/blog/10-trucos-avanzados-de-css-para-mejorar-el-diseno-de-tu-sitio-web"
+                  target="_blank" rel="noopener noreferrer">
+                  Cómo mejorar la estructura visual con CSS
+                </a>
+              </li>
+
+              <li class="list-group-item item-lista">
+                <a href="https://web.dev/articles/critical-rendering-path/adding-interactivity-with-javascript?hl=es-419"
+                  target="_blank" rel="noopener noreferrer">
+                  JavaScript para interacciones simples en páginas web
+                </a>
+              </li>
+
+              <li class="list-group-item item-lista">
+                <a href="https://www.ucanwest.ca/blog/education-careers-tips/10-best-productivity-apps-for-students"
+                  target="_blank" rel="noopener noreferrer">
+                  Organización de proyectos web para estudiantes
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonios" class="parte parte-oscura">
+    <div class="container">
+      <div class="fila-titulo text-center">
+        <p class="texto-verde">TESTIMONIOS</p>
+        <h2 class="titulo-parte">Comentarios sobre mi trabajo</h2>
+      </div>
+
+      <div id="carruselKevin" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="caja-testimonio text-center">
+              <img src="./imagenes/testimonio1.jpg" alt="Cliente" class="foto-testimonio-redonda">
+              <p class="texto-testimonio">Kevin logró que la página se viera más ordenada y clara. El resultado final fue moderno y fácil de usar.</p>
+              <h3 class="nombre-testimonio">Cliente de proyecto artístico</h3>
+              <p class="cargo-testimonio">Trabajo académico / diseño web</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="caja-testimonio text-center">
+              <img src="./imagenes/testimonio2.jpg" alt="Cliente" class="foto-testimonio-redonda">
+              <p class="texto-testimonio">Demostró buena creatividad al reorganizar el sitio y darle una imagen más limpia, manteniendo la información importante.</p>
+              <h3 class="nombre-testimonio">Cliente del sitio textil</h3>
+              <p class="cargo-testimonio">Rediseño visual</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="caja-testimonio text-center">
+              <img src="./imagenes/testimonio3.jpg" alt="Compañera de clase" class="foto-testimonio-redonda">
+              <p class="texto-testimonio">Se nota que está aprendiendo, pero también que cuida mucho el detalle y la presentación en cada práctica.</p>
+              <h3 class="nombre-testimonio">Compañero de clase</h3>
+              <p class="cargo-testimonio">Programación IV</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselKevin" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselKevin" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="parte parte-clara contacto-fondo">
+    <div class="container">
+      <div class="caja-contacto">
+        <div class="row align-items-center gy-4">
+          <div class="col-12 col-lg-8">
+            <p class="texto-verde mb-2">CONTACTO</p>
+            <h2 class="titulo-parte oscuro mb-3">Hablemos de tu próximo sitio web</h2>
+            <p class="texto-normal oscuro-texto mb-0">
+              Estoy creando mi portafolio y sumando experiencia en desarrollo web.
+              Puedes contactarme para colaboraciones, prácticas o proyectos académicos.
+            </p>
+          </div>
+          <div class="col-12 col-lg-4 text-lg-end">
+            <a href="mailto:zamorakevin1578@gmail.com" class="btn boton-verde">Enviar correo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="pie text-center">
+    <div class="container">
+      <div class="logo-final">KZS</div>
+      <p class="frase-final">Kevin Zamora Soto · Desarrollo web front end y backend</p>
+      <div class="redes d-flex justify-content-center gap-3 flex-wrap">
+        <a href="https://github.com/KevinZ15" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://cr.linkedin.com/in/kevin-zamora-94b73b200?trk=people-guest_people_search-card"
+          aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="mailto:zamorakevin1578@gmail.com" aria-label="Correo"><i class="bi bi-envelope"></i></a>
+      </div>
+      <p class="copy">Proyecto de portafolio · Programación IV · 2026</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
